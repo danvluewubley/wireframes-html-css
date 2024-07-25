@@ -1,0 +1,100 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body{
+  display: flex;
+  flex-direction: row;
+  height: 97vh;
+  font-family: 'Prata';
+  background-color: black;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  justify-content: space-between;
+  background: black;
+}
+
+.content{
+  width: 100%;
+}
+
+.explore{
+  align-self: center;
+  margin-top: 34px;
+}
+
+.learn-more{
+  align-self: center;
+  margin-bottom: 36px;
+}
+
+.sidebar-content{
+  display: flex;
+  color: white;
+  margin-left: 27px;
+  height: 50%;
+}
+
+.explore, .learn-more, .sidebar-content{
+  font-size: 36px;
+  font-weight: 400; 
+}
+.explore, .learn-more{
+  font-family: 'Prata';
+  background: #FEAB51;
+  padding: 19px 0;
+  width: 257px;
+  line-height: 48.78px;
+  border: none;
+}
+
+.background{
+  background: black;
+  height: 20%;
+}
+
+.image{
+  position: fixed;
+}
+
+h1{
+  position: absolute;
+  margin-left: 95px;
+  color: white;
+  font-size: 112px;
+  font-weight: 400;
+  line-height: 152.63px;
+  font-size: 112.64px;
+  z-index:1;
+}
+h2{
+  position: absolute;
+  margin-left: 95px;
+  font-size: 64px;
+  line-height: 86.72px;
+  margin-top: 200px;
+  color: #FEAB51;
+  z-index:2;
+}
+
+.nyc_background{
+  max-width:100%;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+  height:auto;
+  z-index:0;
+}
+
+.icon{
+  margin-left: 77px;
+  margin-top: 46px;
+}
