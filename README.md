@@ -20,9 +20,9 @@ This repository contains wireframe designs created using HTML and CSS. The desig
 To get a local copy of this repository up and running, follow these steps:
 
 1. Clone the repo
-   ```
-   git clone https://github.com/yourusername/your-repo-name.git
-   ```
+```
+git clone https://github.com/yourusername/your-repo-name.git
+```
 2. Navigate to the project directory
 ```
 cd your-repo-name
