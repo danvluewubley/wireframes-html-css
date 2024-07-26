@@ -116,6 +116,10 @@ article{
   margin-top: 40px;
 }
 
+.dot{
+  margin-left: 10px;
+}
+
 .right{
   display: flex;
   flex-grow: 1;
