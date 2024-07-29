@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 30%;
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.view,
+.subscribe {
+  background-color: white;
+  border: none;
+  padding: 12px 45px;
+  font-size: 28.53px;
+  font-weight: 500;
+  margin-top: 160px;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+}
+
+.brand h1 {
+  color: white;
+  font-size: 72.53px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 13px;
+}
+
+#line {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 65%;
+}
+
+.videos {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 80%;
+}
+
+.vid-1,
+.vid-2,
+.vid-3 {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thumbnail {
+  width: 90%;
+}
+
+.vid-title {
+  color: white;
+  font-size: 48px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 49px;
+  text-align: center;
+}
+
+.vid-description {
+  font-weight: 500;
+  font-size: 28.71px;
+  text-align: center;
+  width: 249px;
+}
+
+.green {
+  color: #00d69f;
+}
+
+.red {
+  color: #e75050;
+}
+
+.orange {
+  color: #d27752;
+}
+
+.watch-now {
+  background: white;
+  padding: 14.27px 35.67px;
+  border: none;
+  font-size: 28.53px;
+  font-weight: 500;
+}
