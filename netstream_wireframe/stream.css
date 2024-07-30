@@ -69,9 +69,7 @@ header {
   width: 80%;
 }
 
-.vid-1,
-.vid-2,
-.vid-3 {
+.vid {
   width: 33%;
   display: flex;
   flex-direction: column;
